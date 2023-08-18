@@ -32,7 +32,7 @@ export default function Courses() {
 
 		<section>
 			<div className={ styles.sessions }>
-				{ courses.map(course => <Course course={ course } />) }
+				{ courses.map(course => <Course key={ course.title } course={ course } />) }
 			</div>
 		</section>
 	</>
