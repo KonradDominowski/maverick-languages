@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #eedc691a;
+  /* --secondary-color: #f7c560b7; */
+  --secondary-color: #ffd37cb7;
+  --tertiary-color: #d6b854;
+  --opposite-color: #7db1ff;
+  --page-width: 1080px;
+  --link-color: #383838;
+  --nav-height: 4rem;
+}
+
+body {
+  max-width: var(--page-width);
+  margin: auto;
+  line-height: 1.9;
+  background-color: #ffffff;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--tertiary-color);
+}
+
+section {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+section > div {
+  transition: 1s;
+}
+
+.section-hidden {
+  transform: translate(0, 5rem);
+  opacity: 0;
+}
