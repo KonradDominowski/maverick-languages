@@ -14,7 +14,7 @@ const courses = [
 	},
 	{
 		title: 'One To Two',
-		description: 'Two students with no other than English language (preferably) in common - set in pairs, attend a tailor-made course with the who equips them with the necessary tools to improve their communication in English.',
+		description: 'Two students with no other than English language (preferably) in common - set in pairs, attend a tailor-made course with the teacher who equips them with the necessary tools to improve their communication in English.',
 		more: 'Online tution in 2TO1 as well as in group meetings, is based on the power point presentation provided by the teacher with the set of tasks to engage students in a conversation. Adequate coursebooks are sugested if necessary.',
 		img: {
 			src: oneToTwo,
@@ -23,7 +23,7 @@ const courses = [
 	},
 	{
 		title: 'Peer To Peer',
-		description: `Peer-to-peer teaching: natives to different languages can teach each other their mother's tongue in a
+		description: `Peer-to-peer teaching: natives to different languages can teach each other their mother tongue in a
 		specifically designed course with the tutor's help. Such course is prepared individually to fit the student's
 		needs.`,
 		more: 'The formula of this course assumes the will for learning different languages. Sometimes it is possible to turn 2 TO 1 into peer-to-peer, or mix them. All this with the assistance of the tutor who is qualified in both languages involved.',

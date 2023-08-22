@@ -31,13 +31,13 @@ export default function Header() {
 				</div>
 				<div className={ styles.navLinks } onClick={ scrollToSection }>
 					<div className={ styles.navLink }>
-						<button className={ styles.navLink } data-to="courses">Kursy</button>
+						<button className={ styles.navLink } data-to="courses">Courses</button>
 					</div>
 					<div className={ styles.navLink }>
-						<button className={ styles.navLink } data-to="about">O mnie</button>
+						<button className={ styles.navLink } data-to="about">About me</button>
 					</div>
 					<div className={ styles.navLink }>
-						<button className={ styles.navLink } data-to="contact">Kontakt</button>
+						<button className={ styles.navLink } data-to="contact">Contact</button>
 					</div>
 				</div>
 			</nav>

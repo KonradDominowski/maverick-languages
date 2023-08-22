@@ -38,3 +38,14 @@ section > div {
   transform: translate(0, 5rem);
   opacity: 0;
 }
+
+@media (width < 640px) {
+  body {
+    width: 98%;
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}

@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import { IoLogoLinkedin } from 'react-icons/io'
+
 import styles from './Footer.module.scss'
 
 import contactInfo from '@/public/contactInfo'
@@ -56,6 +58,8 @@ export default function Footer() {
 				<h4>LINKS</h4>
 				<ul className={ styles.footerList }>
 					<li><a href="#about">About me</a></li>
+					<li><a href="https://www.linkedin.com/in/marta-matuszewska-ceglarek-618583b7/">LinkedIN		<IoLogoLinkedin fontSize={ 18 } style={ { verticalAlign: 'text-top' } } />
+					</a></li>
 				</ul>
 			</div>
 		</div>

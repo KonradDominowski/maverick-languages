@@ -62,3 +62,16 @@
     scale: 0.95;
   }
 }
+
+@media (width < 640px) {
+
+  .hero {
+    h1 {
+      font-size: 3rem;
+    }
+
+    .secondLine {
+      font-size: 1rem;
+    }
+  }
+}

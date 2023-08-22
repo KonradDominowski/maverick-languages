@@ -25,7 +25,7 @@ export default function AboutMe() {
 					</p>
 				</div>
 				<div>
-					<Image src={ propo_n1 } alt=""></Image>
+					<Image src={ propo_n2 } alt=""></Image>
 				</div>
 			</div>
 		</div>
