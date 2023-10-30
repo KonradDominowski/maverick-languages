@@ -1,6 +1,7 @@
 import styles from './AboutMe.module.scss'
-import propo_n1 from '@/public/images/propo_n1.jpg'
-import propo_n2 from '@/public/images/propo_n2.jpg'
+// import propo_n1 from '@/public/images/propo_n1.jpg'
+// import propo_n2 from '@/public/images/propo_n2.jpg'
+import zdjecie_z_filtrem from '@/public/images/zdjecie_z_filtrem.jpg'
 import Image from 'next/image'
 
 export default function AboutMe() {
@@ -25,7 +26,7 @@ export default function AboutMe() {
 					</p>
 				</div>
 				<div>
-					<Image src={ propo_n2 } alt=""></Image>
+					<Image src={ zdjecie_z_filtrem } alt=""></Image>
 				</div>
 			</div>
 		</div>
