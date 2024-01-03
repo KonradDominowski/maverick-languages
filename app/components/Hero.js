@@ -36,7 +36,7 @@ export default function Hero() {
 
 	return (<>
 		<div class={ styles.hero }>
-			<video autoPlay muted loop className={ styles.video } poster={ poster }
+			<video autoPlay muted loop className={ styles.video } poster='https://i.imgur.com/6XAoIIb.jpeg'
 				src='/video/warsaw720p.mp4'></video>
 			<div>
 				<h1>
